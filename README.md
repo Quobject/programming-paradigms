@@ -18,13 +18,16 @@ sudo chmod u+x install.sh; sudo ./install.sh
 ```
 
 # Testing prolog
+```bash
 cd /home/ubuntu/workspace/prolog
 swipl
 [family1].
 parent(pam, bob).
 Control-C e
-
+```
 # Testing C#
+```bash
 cd /home/ubuntu/workspace/csharp
 mcs program.cs
 mono program.exe
+```
